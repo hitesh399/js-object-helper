@@ -1,6 +1,6 @@
 {
     "name": "js-object-helper",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "private": false,
     "scripts": {
         "build": "babel src/main.js -o dist/index.js --no-comments",
