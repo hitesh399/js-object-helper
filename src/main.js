@@ -336,7 +336,7 @@ const jsObjectHelper = {
 				} else { // if it's a string or a File object
 					if ((obj[property] instanceof Blob) && obj[property]) {
 						fd.append(formKey, obj[property], obj[property].name);
-					} else if (obj[property]) {
+					} else if (obj[property] !== undefined) {
 						fd.append(formKey, obj[property]);
 					}
 				}
