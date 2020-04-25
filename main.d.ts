@@ -75,20 +75,20 @@ interface JsObjectHelperInterface {
   ): void;
 
   /**
-   * To check the variable is array or not, It does not metter what value are you given in param
+   * To check the variable is array or not, It does not metter what value is  given in param
    *
    * @param value - any value
    */
   isArray(value: any): boolean;
   /**
-   * To check the variable is object or not, It does not metter what value are you given in param
+   * To check the variable is object or not, It does not metter what value is  given in param
    *
    * @param value any value
    */
   isObject(value: any): boolean;
 
   /**
-   * To check the variable is a empty object or not, It does not metter what value are you given in param
+   * To check the variable is a empty object or not, It does not metter what value is given in param
    *
    * @param value - any value
    */
@@ -127,7 +127,7 @@ interface JsObjectHelperInterface {
    *
    * @param value (require) - object to conver into form data
    * @param formData (optional) (default=null) - If want to merge  your formdata veriable you can pass it otherwise leave it null
-   * @param namespace (optional) (default=) - To the prefix before every key.
+   * @param namespace (optional) (default=) - To add prefix before every key.
    */
   objectToFormData(
     value: object,

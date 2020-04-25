@@ -6,6 +6,10 @@ A sample Object class that contains some useful methods.
 ## npm
 https://www.npmjs.com/package/js-object-helper
 
+## Test Cases Report
+![Image description](https://github.com/hitesh399/character/blob/master/screenshot/1.png) 
+![Image description](https://github.com/hitesh399/character/blob/master/screenshot/2.png) 
+
 ## Installation
 ```bash
 $ npm install --save js-object-helper

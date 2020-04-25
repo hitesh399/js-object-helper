@@ -1,22 +1,36 @@
 {
     "name": "js-object-helper",
-    "version": "0.0.2",
+    "version": "0.0.4",
     "private": false,
     "scripts": {
         "build": "babel src/main.js -o dist/index.js --no-comments",
         "build-without-npm": "babel src/main.js -o dist/js-object-helper.js --no-comments",
         "test": "jest"
     },
-    "dependencies": {
-        "add": "^2.0.6",
-        "yarn": "^1.21.1"
-    },
+    "dependencies": {},
     "main": "dist/index.js",
     "types": "main.d.ts",
     "files": [
         "dist/js-object-helper.js",
-        "dist/index.js"
+        "dist/index.js",
+        "main.d.ts",
+        "README.md"
     ],
+    "homepage": "https://github.com/hitesh399/js-object-helper#readme",
+    "bugs": {
+        "url": "https://github.com/hitesh399/js-object-helper/issues",
+        "email": "hitesh.kumar399@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hitesh399/js-object-helper.git"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Hitesh Kumar",
+        "email": "hitesh.kumar399@gmail.com",
+        "url": "https://github.com/hitesh399"
+    },
     "devDependencies": {
         "@babel/cli": "^7.7.0",
         "@babel/core": "^7.7.2",
