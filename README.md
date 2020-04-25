@@ -3,9 +3,6 @@
 
 A sample Object class that contains some useful methods.
 
-## Live demo
-https://github.com/hitesh399/js-object-helper
-
 ## npm
 https://www.npmjs.com/package/js-object-helper
 
