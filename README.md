@@ -7,8 +7,8 @@ A sample Object class that contains some useful methods.
 https://www.npmjs.com/package/js-object-helper
 
 ## Test Cases Report
-![Image description](https://github.com/hitesh399/character/blob/master/screenshot/1.png) 
-![Image description](https://github.com/hitesh399/character/blob/master/screenshot/2.png) 
+![Image description](https://github.com/hitesh399/js-object-helper/blob/master/screenshot/1.png) 
+![Image description](https://github.com/hitesh399/js-object-helper/blob/master/screenshot/2.png) 
 
 ## Installation
 ```bash
